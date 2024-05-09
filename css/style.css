@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*  font-family: "Poppins", sans-serif;
+    font-family: "Open Sans", sans-serif;
+*/
+
+*{margin: 0;
+border: 0;
+box-sizing: border-box;
+}
+
+:root {
+        --color: rgb(230, 245, 248);
+        --header-font: "Poppins", sans-serif;
+        --primary-font: "Open Sans", sans-serif;  
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+body{
+    font-family: var(--primary-font);
+    font-weight: 100;
+
+    background-color: var(--color);
+}
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 150;
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 400%;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+
+
+
+.button{
+    background-color: var(--color);
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    border-radius: 5pc;
+    margin-top: 5%;
+    color: black;
+    transition-duration: 0.4s;
+    margin-top: 0;
+    border: 1px solid;
+    border-color: #fff;
+    
+}
+.button:hover{
+    background-color: rgb(250, 162, 68);
+    color: #fff;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.justify_end {
+    justify-content: flex-end;
+}
+.align-center{
+   align-items: center; 
+}
+.column_1_2 {
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.column_1_3 {
+    lex-basis: 33.33%;
+    max-width: 33.33%;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+img{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.image_box{
+    overflow: hidden;
+    object-fit: cover;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.image_box img{
+    transition: 0.4s;
+}
+.image_box:hover img{
+    transform: scale(1.03);
+    opacity: 0.8;
+}
+.imageText{
+    background-color: rgb(250, 162, 68);
+    padding: 20px;
+}
+.imageText h2{
+    text-align: center;
+}
+.imageText p{
+    text-align: center;
+    font-size: 14px;
+}
+
+/*hero section*/
+
+.hero{
+    background-image: url(../images/Body/pexels-laindemacias-1000071.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: var(--color);
+
+}
+.hero p { 
+    font-family: "Poppins", sans-serif;
+    font-weight: 150;
+    box-sizing: border-box;
+    margin: 1% auto;
+    color: #fff;
+    text-align: center;
+    font-size: 120%;
+}
+.hero .container{
+    text-align: center;
+    max-width: 800px;
+}
+
+h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: rgb(63, 62, 62);
+    font-size: 150%;
+    text-align: center;
+    padding-left: 10px ;
+    
+
+}
+
+/* gallery section css*/
+
+.gallery {
+    padding: 40px 0;
+}
+
